@@ -7,7 +7,7 @@ export default function Home() {
     <main>
       <div className="flex" >
         <Navbar />
-        <div>
+        <div className="w-full border-2 border-red-700" >
           <Headerbar/>
           <Homepage />
           </div>
