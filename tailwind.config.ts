@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundColor: {
+        'regal-white': '#F9F9F9',
+        'appointment': '#7A6EFE'
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

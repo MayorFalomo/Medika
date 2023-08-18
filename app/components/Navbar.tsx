@@ -10,7 +10,7 @@ type Props = {}
 const Navbar = (props: any) => {
   return (
     <div>
-      <div className="border-2 border-red-700 h-screen" >
+      <div className="border-2 border-red-700 w-72 h-screen" >
       <h1 className="p-4 ml-4 text-2xl font-bold" > MEDIKA </h1>
         <ul className='flex items-start flex-col mt-12 mx-4 gap-5 ' >
         <li className='flex items-center gap-5 cursor-pointer rounded-2xl p-4 hover:text-white hover:bg-black ' ><span><HiOutlineSquares2X2 fontSize="25px" /> </span> Overview </li>
