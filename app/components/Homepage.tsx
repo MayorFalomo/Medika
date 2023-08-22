@@ -18,21 +18,21 @@ const Homepage = (props: Props) => {
             <p>Appointments </p>
             </div>
       </div>
-      <div className='flex items-center justify-center gap-2 p-6  border-2 border-red-700' >
+      <div className='flex items-center justify-center gap-5 p-6 text-white bg-pink rounded-lg' >
           <AiOutlineCalendar fontSize="25px" />
           <div>
         <h2 className='text-xl' >166.4k </h2>
         <p>Total Patients </p>
           </div>
           </div>
-      <div className='flex items-center justify-center gap-2 p-6 border-2 border-red-700' >
+      <div className='flex items-center justify-center gap-5 p-6 text-white bg-yellow-consult rounded-lg ' >
           <BiBriefcaseAlt fontSize="25px" />
           <div>
         <h2 className='text-xl' > 53.5k </h2>
         <p>clinic consulting </p>
           </div>
           </div>
-      <div className='flex items-center justify-center gap-2 p-6 border-2 border-red-700' >
+      <div className='flex items-center justify-center gap-5 p-6 text-white bg-blue rounded-lg' >
           <BsCameraVideo fontSize="25px" />
           <div>
         <h2 className='text-xl' >28.0k </h2>

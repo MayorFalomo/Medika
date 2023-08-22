@@ -10,7 +10,10 @@ const config: Config = {
     extend: {
       backgroundColor: {
         'regal-white': '#F9F9F9',
-        'appointment': '#7A6EFE'
+        'appointment': '#7A6EFE',
+        'pink': '#FF5363',
+        'yellow-consult': '#FFA901',
+        'blue': '#24A8FA',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
