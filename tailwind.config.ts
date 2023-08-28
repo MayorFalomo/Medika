@@ -14,6 +14,8 @@ const config: Config = {
         'pink': '#FF5363',
         'yellow-consult': '#FFA901',
         'blue': '#24A8FA',
+        'declined-bg': '#FEEEEF',
+        'declined': '#F496A1'
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
