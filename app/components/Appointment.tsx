@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 type Props = {}
 
 const Appointment = (props: Props) => {
-    const [appointment, setAppointment] = useState<any>(false)
+    const [appointment, setAppointment] = useState<any>(true)
   return (
       <div>
             <h1>  Appointment Request </h1>
@@ -15,7 +15,7 @@ const Appointment = (props: Props) => {
                   <p>45 Male, 12 April 9:30 </p>
                   </div>
               {appointment ?
-                  <button className='border border-none outline-none text-blue-200 p-2' >Accept </button> :
+                  <button className='border border-none outline-none p-3 bg-accepted-bg text-[#9FA0EC] rounded-md' >Confirmed </button> :
               <button className='border border-none outline-none bg-declined-bg text-[#F496A1] p-3 rounded-md' >Declined </button> }
              
           </div>  

@@ -15,7 +15,7 @@ const config: Config = {
         'yellow-consult': '#FFA901',
         'blue': '#24A8FA',
         'declined-bg': '#FEEEEF',
-        'declined': '#F496A1'
+        'accepted-bg': '#E9D6FE',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
